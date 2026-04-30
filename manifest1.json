@@ -1,6 +1,6 @@
 {
   "name": "PoolFlow List",
-  "short_name": "1vs1",
+  "short_name": "Checklist",
   "start_url": "https://train-nu.vercel.app/",
   "display": "standalone",
   "icons": [
