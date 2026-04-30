@@ -1,7 +1,7 @@
 {
-  "name": "PoolFlow 1vs1",
+  "name": "PoolFlow List",
   "short_name": "1vs1",
-  "start_url": "https://xiscobarcelo.com/1vs1/on.html",
+  "start_url": "https://train-nu.vercel.app/",
   "display": "standalone",
   "icons": [
     {
