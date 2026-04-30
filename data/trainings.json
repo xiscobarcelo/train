@@ -2,10 +2,10 @@
   "trainings": [
     {
       "id": "training_1777541592539_12b16c46428de",
-      "title": "Rutina POST PARTIDO1",
+      "title": "Rutina POST PARTIDO",
       "description": "",
       "createdAt": "2026-04-30T09:33:12.540Z",
-      "updatedAt": "2026-04-30T10:50:58.137Z",
+      "updatedAt": "2026-04-30T10:51:08.363Z",
       "phases": [
         {
           "id": "phase_1777541630108_a0d33c3e16f0b8",
@@ -30,7 +30,7 @@
       "title": "Rutina PREPARTIDO",
       "description": "",
       "createdAt": "2026-04-30T09:26:01.246Z",
-      "updatedAt": "2026-04-30T09:30:26.765Z",
+      "updatedAt": "2026-04-30T11:30:06.334Z",
       "phases": [
         {
           "id": "phase_1777541196792_e2473fd39d46a8",
@@ -67,5 +67,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-04-30T10:51:01.110Z"
+  "updatedAt": "2026-04-30T12:07:33.110Z"
 }
