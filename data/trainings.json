@@ -5,15 +5,15 @@
       "title": "banda",
       "description": "",
       "createdAt": "2026-04-30T09:23:02.590Z",
-      "updatedAt": "2026-04-30T09:23:18.148Z",
+      "updatedAt": "2026-04-30T09:23:48.582Z",
       "phases": [
         {
           "id": "phase_1777540994106_05c920c8a9cd98",
           "title": "pedgass",
           "description": "",
-          "done": false,
+          "done": true,
           "createdAt": "2026-04-30T09:23:14.106Z",
-          "completedAt": null
+          "completedAt": "2026-04-30T09:23:48.582Z"
         },
         {
           "id": "phase_1777540998148_426b8ce7777fe8",
@@ -26,5 +26,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-04-30T09:23:22.081Z"
+  "updatedAt": "2026-04-30T09:23:51.541Z"
 }
