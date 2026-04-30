@@ -83,7 +83,7 @@
       display: grid;
       grid-template-columns: 1fr;
       gap: 18px;
-      padding: 4px;
+      padding: 18px;
     }
 
     @media (min-width: 900px) {
@@ -103,7 +103,7 @@
     .card-title {
       margin: 0 0 14px;
       font-size: 17px;
-      font-weight: 700;
+      font-weight: 800;
       letter-spacing: -.02em;
     }
 
@@ -147,7 +147,7 @@
       border-radius: 16px;
       padding: 13px 16px;
       font-size: 14px;
-      font-weight: 700;
+      font-weight: 800;
       cursor: pointer;
       font-family: inherit;
       transition: .15s ease;
@@ -226,7 +226,7 @@
     }
 
     .item-title {
-      font-weight: 700;
+      font-weight: 800;
       font-size: 15px;
       text-transform: uppercase;
     }
@@ -308,12 +308,88 @@
       border-top: 1px solid var(--line);
       margin: 18px 0;
     }
+
+    .live-mode {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      background:
+        radial-gradient(circle at top left, rgba(0,113,227,.12), transparent 35%),
+        linear-gradient(180deg, #ffffff, #f4f6f9);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 22px;
+    }
+
+    .live-mode.active {
+      display: flex;
+    }
+
+    .live-card {
+      width: 100%;
+      max-width: 780px;
+      background: rgba(255,255,255,.9);
+      border: 1px solid var(--line);
+      border-radius: 34px;
+      padding: clamp(24px, 5vw, 54px);
+      box-shadow: var(--shadow);
+      text-align: center;
+    }
+
+    .live-counter {
+      color: var(--muted);
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      margin-bottom: 16px;
+    }
+
+    .live-card h1 {
+      font-size: clamp(34px, 7vw, 72px);
+      line-height: 1;
+      letter-spacing: -.06em;
+      margin: 0 0 20px;
+    }
+
+    .live-card p {
+      font-size: clamp(17px, 3vw, 26px);
+      color: var(--muted);
+      line-height: 1.45;
+      margin: 0 0 28px;
+      white-space: pre-wrap;
+    }
+
+    .live-actions {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 24px;
+    }
+
+    .live-actions button {
+      flex: 1 1 150px;
+    }
+
+    .live-exit {
+      position: fixed;
+      top: 16px;
+      right: 16px;
+      width: 52px;
+      height: 52px;
+      padding: 0;
+      border-radius: 18px;
+      background: rgba(0,0,0,.08);
+      color: var(--text);
+      z-index: 10000;
+    }
   </style>
 </head>
 
 <body>
   <div class="app">
-    <div class="shell1">
+    <div class="shell">
 
       <div class="topbar">
         <div>
@@ -376,6 +452,10 @@
               <textarea id="activeDescription" oninput="updateActiveTraining()"></textarea>
             </div>
 
+            <div class="toolbar">
+              <button class="btn-success" onclick="startLiveMode()">Modo entrenamiento en vivo</button>
+            </div>
+
             <h3 class="card-title" style="margin-top:18px;">Fases del entrenamiento</h3>
 
             <div class="progress-wrap">
@@ -414,6 +494,26 @@
     </div>
   </div>
 
+  <div id="liveMode" class="live-mode">
+    <button class="live-exit" onclick="exitLiveMode()">✕</button>
+
+    <div class="live-card">
+      <div class="live-counter" id="liveCounter">Fase 1/1</div>
+      <h1 id="liveTitle">Título fase</h1>
+      <p id="liveDescription">Descripción fase</p>
+
+      <div class="progress-wrap">
+        <div class="progress" id="liveProgressBar"></div>
+      </div>
+
+      <div class="live-actions">
+        <button class="btn-dark" onclick="prevLivePhase()">Anterior</button>
+        <button class="btn-success" onclick="completeLivePhase()">Hecho</button>
+        <button class="btn-primary" onclick="nextLivePhase()">Siguiente</button>
+      </div>
+    </div>
+  </div>
+
   <script>
     const LOCAL_KEY = 'training_checklist_github_secure_v1';
 
@@ -422,6 +522,8 @@
       activeTrainingId: null,
       lastSyncedAt: null
     };
+
+    let liveIndex = 0;
 
     const $ = id => document.getElementById(id);
 
@@ -665,6 +767,85 @@
       } catch (e) {
         console.error(e);
         setStatus(`Error al guardar: ${e.message}`, 'err');
+      }
+    }
+
+    function startLiveMode() {
+      const active = getActiveTraining();
+
+      if (!active || !active.phases || !active.phases.length) {
+        setStatus('Primero selecciona un entrenamiento y añade fases.', 'err');
+        return;
+      }
+
+      const firstPendingIndex = active.phases.findIndex(p => !p.done);
+      liveIndex = firstPendingIndex >= 0 ? firstPendingIndex : 0;
+
+      $('liveMode').classList.add('active');
+      renderLiveMode();
+    }
+
+    function exitLiveMode() {
+      $('liveMode').classList.remove('active');
+      render();
+    }
+
+    function renderLiveMode() {
+      const active = getActiveTraining();
+      if (!active || !active.phases.length) return;
+
+      const phase = active.phases[liveIndex];
+      if (!phase) return;
+
+      const total = active.phases.length;
+      const done = active.phases.filter(p => p.done).length;
+      const percent = total ? Math.round((done / total) * 100) : 0;
+
+      $('liveCounter').textContent = `Fase ${liveIndex + 1}/${total}`;
+      $('liveTitle').textContent = phase.title || 'Fase sin título';
+      $('liveDescription').textContent = phase.description || 'Sin descripción';
+      $('liveProgressBar').style.width = `${percent}%`;
+    }
+
+    function completeLivePhase() {
+      const active = getActiveTraining();
+      if (!active) return;
+
+      const phase = active.phases[liveIndex];
+      if (!phase) return;
+
+      phase.done = true;
+      phase.completedAt = new Date().toISOString();
+      active.updatedAt = new Date().toISOString();
+
+      saveLocal();
+
+      const nextPending = active.phases.findIndex((p, index) => index > liveIndex && !p.done);
+
+      if (nextPending >= 0) {
+        liveIndex = nextPending;
+      } else if (liveIndex < active.phases.length - 1) {
+        liveIndex++;
+      }
+
+      renderLiveMode();
+      render();
+    }
+
+    function nextLivePhase() {
+      const active = getActiveTraining();
+      if (!active) return;
+
+      if (liveIndex < active.phases.length - 1) {
+        liveIndex++;
+        renderLiveMode();
+      }
+    }
+
+    function prevLivePhase() {
+      if (liveIndex > 0) {
+        liveIndex--;
+        renderLiveMode();
       }
     }
 
