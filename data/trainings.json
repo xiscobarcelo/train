@@ -1,30 +1,46 @@
 {
   "trainings": [
     {
-      "id": "training_1777540982590_4019b6c6af74b",
-      "title": "banda",
+      "id": "training_1777541161246_1665f6541108a8",
+      "title": "Rutina PREPARTIDO",
       "description": "",
-      "createdAt": "2026-04-30T09:23:02.590Z",
-      "updatedAt": "2026-04-30T09:23:48.582Z",
+      "createdAt": "2026-04-30T09:26:01.246Z",
+      "updatedAt": "2026-04-30T09:30:26.765Z",
       "phases": [
         {
-          "id": "phase_1777540994106_05c920c8a9cd98",
-          "title": "pedgass",
-          "description": "",
-          "done": true,
-          "createdAt": "2026-04-30T09:23:14.106Z",
-          "completedAt": "2026-04-30T09:23:48.582Z"
-        },
-        {
-          "id": "phase_1777540998148_426b8ce7777fe8",
-          "title": "largar",
+          "id": "phase_1777541196792_e2473fd39d46a8",
+          "title": "Respiración",
           "description": "",
           "done": false,
-          "createdAt": "2026-04-30T09:23:18.148Z",
+          "createdAt": "2026-04-30T09:26:36.792Z",
+          "completedAt": null
+        },
+        {
+          "id": "phase_1777541213667_b9361af9b377c",
+          "title": "Visualizazión",
+          "description": "",
+          "done": false,
+          "createdAt": "2026-04-30T09:26:53.667Z",
+          "completedAt": null
+        },
+        {
+          "id": "phase_1777541251196_582d86e4d4fd48",
+          "title": "Concentración",
+          "description": "",
+          "done": false,
+          "createdAt": "2026-04-30T09:27:31.196Z",
+          "completedAt": null
+        },
+        {
+          "id": "phase_1777541426765_13ee6e50b799b8",
+          "title": "Tips rápidos",
+          "description": "- limado corto\n- punto seguro\n- golpeo sin duda ni miedo\n- acto de fe",
+          "done": false,
+          "createdAt": "2026-04-30T09:30:26.765Z",
           "completedAt": null
         }
       ]
     }
   ],
-  "updatedAt": "2026-04-30T09:23:51.541Z"
+  "updatedAt": "2026-04-30T09:30:38.479Z"
 }
