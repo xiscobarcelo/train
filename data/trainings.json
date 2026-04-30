@@ -1,6 +1,14 @@
 {
   "trainings": [
     {
+      "id": "training_1777541592539_12b16c46428de",
+      "title": "Rutina POST PARTIDO",
+      "description": "",
+      "createdAt": "2026-04-30T09:33:12.540Z",
+      "updatedAt": "2026-04-30T09:33:12.540Z",
+      "phases": []
+    },
+    {
       "id": "training_1777541161246_1665f6541108a8",
       "title": "Rutina PREPARTIDO",
       "description": "",
@@ -42,5 +50,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-04-30T09:30:38.479Z"
+  "updatedAt": "2026-04-30T09:33:23.380Z"
 }
