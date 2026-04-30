@@ -11,3 +11,6 @@ Frontend HTML + API segura para guardar entrenamientos en un JSON dentro de GitH
 - GITHUB_TOKEN
 
 No pongas nunca el token en index.html.
+
+github_pat_11ADSATGI0dIV5zUCWQ1WT_
+dRolyGPmeYHFbhAjzyhwScN3Po8Wt5LSVBcmuSzeiV9PKOYIPEE28iqLfz8
