@@ -1,4 +1,30 @@
 {
-  "trainings": [],
-  "updatedAt": null
+  "trainings": [
+    {
+      "id": "training_1777540982590_4019b6c6af74b",
+      "title": "banda",
+      "description": "",
+      "createdAt": "2026-04-30T09:23:02.590Z",
+      "updatedAt": "2026-04-30T09:23:18.148Z",
+      "phases": [
+        {
+          "id": "phase_1777540994106_05c920c8a9cd98",
+          "title": "pedgass",
+          "description": "",
+          "done": false,
+          "createdAt": "2026-04-30T09:23:14.106Z",
+          "completedAt": null
+        },
+        {
+          "id": "phase_1777540998148_426b8ce7777fe8",
+          "title": "largar",
+          "description": "",
+          "done": false,
+          "createdAt": "2026-04-30T09:23:18.148Z",
+          "completedAt": null
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-04-30T09:23:22.081Z"
 }
