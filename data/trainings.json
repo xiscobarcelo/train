@@ -1,6 +1,95 @@
 {
   "trainings": [
     {
+      "id": "training_1777551562965_560f70c26ed178",
+      "title": "BÁSICO",
+      "description": "",
+      "createdAt": "2026-04-30T12:19:22.965Z",
+      "updatedAt": "2026-04-30T12:22:27.136Z",
+      "phases": [
+        {
+          "id": "phase_1777551594040_340de06f6dadc8",
+          "title": "Calentamiento",
+          "description": "tirar algunas bolas al azar",
+          "done": false,
+          "createdAt": "2026-04-30T12:19:54.040Z",
+          "completedAt": null
+        },
+        {
+          "id": "phase_1777551631547_637f8706fdefa",
+          "title": "Centro bola",
+          "description": "4 en los diamantes X",
+          "done": false,
+          "createdAt": "2026-04-30T12:20:31.547Z",
+          "completedAt": null
+        },
+        {
+          "id": "phase_1777551650151_5fe13ca122a538",
+          "title": "Corrido",
+          "description": "idem anterior",
+          "done": false,
+          "createdAt": "2026-04-30T12:20:50.151Z",
+          "completedAt": null
+        },
+        {
+          "id": "phase_1777551658612_4eaa22dc6b19e8",
+          "title": "Retro",
+          "description": "idem anterior",
+          "done": false,
+          "createdAt": "2026-04-30T12:20:58.612Z",
+          "completedAt": null
+        },
+        {
+          "id": "phase_1777551668534_7db9baec9f9ae8",
+          "title": "Finas",
+          "description": "",
+          "done": false,
+          "createdAt": "2026-04-30T12:21:08.534Z",
+          "completedAt": null
+        },
+        {
+          "id": "phase_1777551674732_3b6ec797ca81e8",
+          "title": "Con EFECTO",
+          "description": "",
+          "done": false,
+          "createdAt": "2026-04-30T12:21:14.732Z",
+          "completedAt": null
+        },
+        {
+          "id": "phase_1777551686026_ccd62b9e41fc4",
+          "title": "BANDAS",
+          "description": "",
+          "done": false,
+          "createdAt": "2026-04-30T12:21:26.026Z",
+          "completedAt": null
+        },
+        {
+          "id": "phase_1777551692880_445d655dab6fb",
+          "title": "DEFENSAS",
+          "description": "",
+          "done": false,
+          "createdAt": "2026-04-30T12:21:32.880Z",
+          "completedAt": null
+        },
+        {
+          "id": "phase_1777551715456_f53a9af5864c48",
+          "title": "JUEGO",
+          "description": "",
+          "done": false,
+          "createdAt": "2026-04-30T12:21:55.456Z",
+          "completedAt": null
+        },
+        {
+          "id": "phase_1777551747136_9f911c1f882638",
+          "title": "ANALISIS ENTRENAMIENTO",
+          "description": "Qué cosas se pueden mejorar para la siguiente sesión.",
+          "done": false,
+          "createdAt": "2026-04-30T12:22:27.136Z",
+          "completedAt": null
+        }
+      ]
+    },
+    {
       "id": "training_1777541161246_1665f6541108a8",
       "title": "Rutina PREPARTIDO",
       "description": "",
@@ -42,5 +131,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-04-30T12:17:58.911Z"
+  "updatedAt": "2026-04-30T12:22:29.380Z"
 }
