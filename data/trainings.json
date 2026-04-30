@@ -1,31 +1,6 @@
 {
   "trainings": [
     {
-      "id": "training_1777541592539_12b16c46428de",
-      "title": "Rutina POST PARTIDO",
-      "description": "",
-      "createdAt": "2026-04-30T09:33:12.540Z",
-      "updatedAt": "2026-04-30T10:51:08.363Z",
-      "phases": [
-        {
-          "id": "phase_1777541630108_a0d33c3e16f0b8",
-          "title": "Analizar partidas",
-          "description": "",
-          "done": false,
-          "createdAt": "2026-04-30T09:33:50.108Z",
-          "completedAt": null
-        },
-        {
-          "id": "phase_1777541641611_71079d4f1cd718",
-          "title": "Escribir sensaciones",
-          "description": "",
-          "done": false,
-          "createdAt": "2026-04-30T09:34:01.611Z",
-          "completedAt": null
-        }
-      ]
-    },
-    {
       "id": "training_1777541161246_1665f6541108a8",
       "title": "Rutina PREPARTIDO",
       "description": "",
@@ -67,5 +42,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-04-30T12:07:41.499Z"
+  "updatedAt": "2026-04-30T12:17:58.911Z"
 }
