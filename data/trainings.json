@@ -1,38 +1,4 @@
 {
-  "trainings": [
-    {
-      "id": "training_1777669297276_b8a308e559b2d8",
-      "title": "Jhhvl",
-      "description": "",
-      "createdAt": "2026-05-01T21:01:37.277Z",
-      "updatedAt": "2026-05-01T21:01:48.571Z",
-      "phases": [
-        {
-          "id": "phase_1777669303337_29b07a7cfb7f98",
-          "title": "Hv",
-          "description": "",
-          "done": false,
-          "createdAt": "2026-05-01T21:01:43.337Z",
-          "completedAt": null
-        },
-        {
-          "id": "phase_1777669308571_d291c4c0e4f148",
-          "title": "Vkm",
-          "description": "",
-          "done": false,
-          "createdAt": "2026-05-01T21:01:48.571Z",
-          "completedAt": null
-        }
-      ]
-    },
-    {
-      "id": "training_1777668057563_9af05dd7e642d8",
-      "title": "Pre partido",
-      "description": "",
-      "createdAt": "2026-05-01T20:40:57.563Z",
-      "updatedAt": "2026-05-01T20:40:57.563Z",
-      "phases": []
-    }
-  ],
-  "updatedAt": "2026-05-01T21:01:55.390Z"
+  "trainings": [],
+  "updatedAt": "2026-05-01T21:05:09.946Z"
 }
