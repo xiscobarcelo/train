@@ -1,135 +1,38 @@
 {
   "trainings": [
     {
-      "id": "training_1777551562965_560f70c26ed178",
-      "title": "BÁSICO",
+      "id": "training_1777669297276_b8a308e559b2d8",
+      "title": "Jhhvl",
       "description": "",
-      "createdAt": "2026-04-30T12:19:22.965Z",
-      "updatedAt": "2026-04-30T12:22:27.136Z",
+      "createdAt": "2026-05-01T21:01:37.277Z",
+      "updatedAt": "2026-05-01T21:01:48.571Z",
       "phases": [
         {
-          "id": "phase_1777551594040_340de06f6dadc8",
-          "title": "Calentamiento",
-          "description": "tirar algunas bolas al azar",
-          "done": false,
-          "createdAt": "2026-04-30T12:19:54.040Z",
-          "completedAt": null
-        },
-        {
-          "id": "phase_1777551631547_637f8706fdefa",
-          "title": "Centro bola",
-          "description": "4 en los diamantes X",
-          "done": false,
-          "createdAt": "2026-04-30T12:20:31.547Z",
-          "completedAt": null
-        },
-        {
-          "id": "phase_1777551650151_5fe13ca122a538",
-          "title": "Corrido",
-          "description": "idem anterior",
-          "done": false,
-          "createdAt": "2026-04-30T12:20:50.151Z",
-          "completedAt": null
-        },
-        {
-          "id": "phase_1777551658612_4eaa22dc6b19e8",
-          "title": "Retro",
-          "description": "idem anterior",
-          "done": false,
-          "createdAt": "2026-04-30T12:20:58.612Z",
-          "completedAt": null
-        },
-        {
-          "id": "phase_1777551668534_7db9baec9f9ae8",
-          "title": "Finas",
+          "id": "phase_1777669303337_29b07a7cfb7f98",
+          "title": "Hv",
           "description": "",
           "done": false,
-          "createdAt": "2026-04-30T12:21:08.534Z",
+          "createdAt": "2026-05-01T21:01:43.337Z",
           "completedAt": null
         },
         {
-          "id": "phase_1777551674732_3b6ec797ca81e8",
-          "title": "Con EFECTO",
+          "id": "phase_1777669308571_d291c4c0e4f148",
+          "title": "Vkm",
           "description": "",
           "done": false,
-          "createdAt": "2026-04-30T12:21:14.732Z",
-          "completedAt": null
-        },
-        {
-          "id": "phase_1777551686026_ccd62b9e41fc4",
-          "title": "BANDAS",
-          "description": "",
-          "done": false,
-          "createdAt": "2026-04-30T12:21:26.026Z",
-          "completedAt": null
-        },
-        {
-          "id": "phase_1777551692880_445d655dab6fb",
-          "title": "DEFENSAS",
-          "description": "",
-          "done": false,
-          "createdAt": "2026-04-30T12:21:32.880Z",
-          "completedAt": null
-        },
-        {
-          "id": "phase_1777551715456_f53a9af5864c48",
-          "title": "JUEGO",
-          "description": "",
-          "done": false,
-          "createdAt": "2026-04-30T12:21:55.456Z",
-          "completedAt": null
-        },
-        {
-          "id": "phase_1777551747136_9f911c1f882638",
-          "title": "ANALISIS ENTRENAMIENTO",
-          "description": "Qué cosas se pueden mejorar para la siguiente sesión.",
-          "done": false,
-          "createdAt": "2026-04-30T12:22:27.136Z",
+          "createdAt": "2026-05-01T21:01:48.571Z",
           "completedAt": null
         }
       ]
     },
     {
-      "id": "training_1777541161246_1665f6541108a8",
-      "title": "Rutina PREPARTIDO",
+      "id": "training_1777668057563_9af05dd7e642d8",
+      "title": "Pre partido",
       "description": "",
-      "createdAt": "2026-04-30T09:26:01.246Z",
-      "updatedAt": "2026-04-30T11:30:06.334Z",
-      "phases": [
-        {
-          "id": "phase_1777541196792_e2473fd39d46a8",
-          "title": "Respiración",
-          "description": "",
-          "done": false,
-          "createdAt": "2026-04-30T09:26:36.792Z",
-          "completedAt": null
-        },
-        {
-          "id": "phase_1777541213667_b9361af9b377c",
-          "title": "Visualizazión",
-          "description": "",
-          "done": false,
-          "createdAt": "2026-04-30T09:26:53.667Z",
-          "completedAt": null
-        },
-        {
-          "id": "phase_1777541251196_582d86e4d4fd48",
-          "title": "Concentración",
-          "description": "",
-          "done": false,
-          "createdAt": "2026-04-30T09:27:31.196Z",
-          "completedAt": null
-        },
-        {
-          "id": "phase_1777541426765_13ee6e50b799b8",
-          "title": "Tips rápidos",
-          "description": "- limado corto\n- punto seguro\n- golpeo sin duda ni miedo\n- acto de fe",
-          "done": false,
-          "createdAt": "2026-04-30T09:30:26.765Z",
-          "completedAt": null
-        }
-      ]
+      "createdAt": "2026-05-01T20:40:57.563Z",
+      "updatedAt": "2026-05-01T20:40:57.563Z",
+      "phases": []
     }
   ],
-  "updatedAt": "2026-04-30T12:22:29.380Z"
+  "updatedAt": "2026-05-01T21:01:55.390Z"
 }
