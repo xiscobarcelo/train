@@ -1,4 +1,71 @@
 {
-  "trainings": [],
-  "updatedAt": "2026-05-01T21:05:09.946Z"
+  "trainings": [
+    {
+      "id": "training_1783335906687_c8026e985fce58",
+      "title": "Banda",
+      "description": "",
+      "createdAt": "2026-07-06T11:05:06.687Z",
+      "updatedAt": "2026-07-06T11:05:44.221Z",
+      "phases": [
+        {
+          "id": "phase_1783335930109_0765f5556bd328",
+          "title": "45grados",
+          "description": "",
+          "done": false,
+          "createdAt": "2026-07-06T11:05:30.109Z",
+          "completedAt": null
+        },
+        {
+          "id": "phase_1783335936781_05556e0eafef38",
+          "title": "30 grados",
+          "description": "",
+          "done": false,
+          "createdAt": "2026-07-06T11:05:36.781Z",
+          "completedAt": null
+        },
+        {
+          "id": "phase_1783335944221_69e00f4e89def",
+          "title": "0 grados",
+          "description": "",
+          "done": false,
+          "createdAt": "2026-07-06T11:05:44.221Z",
+          "completedAt": null
+        }
+      ]
+    },
+    {
+      "id": "training_1783335724426_a05bc3a66b7d",
+      "title": "Tiros rectos",
+      "description": "10 x esquina",
+      "createdAt": "2026-07-06T11:02:04.426Z",
+      "updatedAt": "2026-07-06T11:04:30.450Z",
+      "phases": [
+        {
+          "id": "phase_1783335760259_bc4fc97785354",
+          "title": "5 dcha",
+          "description": "",
+          "done": true,
+          "createdAt": "2026-07-06T11:02:40.259Z",
+          "completedAt": "2026-07-06T11:04:27.166Z"
+        },
+        {
+          "id": "phase_1783335768130_c46dc96c082d28",
+          "title": "5 ixq",
+          "description": "",
+          "done": true,
+          "createdAt": "2026-07-06T11:02:48.130Z",
+          "completedAt": "2026-07-06T11:04:28.966Z"
+        },
+        {
+          "id": "phase_1783335776070_ba41de08210668",
+          "title": "5 centro",
+          "description": "",
+          "done": true,
+          "createdAt": "2026-07-06T11:02:56.070Z",
+          "completedAt": "2026-07-06T11:04:30.450Z"
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-07-06T11:05:51.253Z"
 }
