@@ -5,14 +5,14 @@
       "title": "Banda",
       "description": "",
       "createdAt": "2026-07-06T11:05:06.687Z",
-      "updatedAt": "2026-07-06T11:05:44.221Z",
+      "updatedAt": "2026-07-06T11:07:32.965Z",
       "phases": [
         {
-          "id": "phase_1783335930109_0765f5556bd328",
-          "title": "45grados",
+          "id": "phase_1783335944221_69e00f4e89def",
+          "title": "0 grados",
           "description": "",
           "done": false,
-          "createdAt": "2026-07-06T11:05:30.109Z",
+          "createdAt": "2026-07-06T11:05:44.221Z",
           "completedAt": null
         },
         {
@@ -24,11 +24,11 @@
           "completedAt": null
         },
         {
-          "id": "phase_1783335944221_69e00f4e89def",
-          "title": "0 grados",
+          "id": "phase_1783336047844_6bbe0dd20aa298",
+          "title": "45 grados",
           "description": "",
           "done": false,
-          "createdAt": "2026-07-06T11:05:44.221Z",
+          "createdAt": "2026-07-06T11:07:27.844Z",
           "completedAt": null
         }
       ]
@@ -67,5 +67,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-07-06T11:07:06.890Z"
+  "updatedAt": "2026-07-06T11:07:43.796Z"
 }
