@@ -84,37 +84,29 @@
     },
     {
       "id": "training_1783335724426_a05bc3a66b7d",
-      "title": "Tiros rectos",
+      "title": "Tiros 45°",
       "description": "10 x esquina",
       "createdAt": "2026-07-06T11:02:04.426Z",
-      "updatedAt": "2026-07-06T11:06:56.405Z",
+      "updatedAt": "2026-07-08T16:18:20.872Z",
       "phases": [
         {
           "id": "phase_1783335760259_bc4fc97785354",
           "title": "5 dcha",
           "description": "",
-          "done": true,
+          "done": false,
           "createdAt": "2026-07-06T11:02:40.259Z",
-          "completedAt": "2026-07-06T11:06:53.657Z"
+          "completedAt": null
         },
         {
           "id": "phase_1783335768130_c46dc96c082d28",
           "title": "5 ixq",
           "description": "",
-          "done": true,
+          "done": false,
           "createdAt": "2026-07-06T11:02:48.130Z",
-          "completedAt": "2026-07-06T11:06:55.390Z"
-        },
-        {
-          "id": "phase_1783335776070_ba41de08210668",
-          "title": "5 centro",
-          "description": "",
-          "done": true,
-          "createdAt": "2026-07-06T11:02:56.070Z",
-          "completedAt": "2026-07-06T11:06:56.405Z"
+          "completedAt": null
         }
       ]
     }
   ],
-  "updatedAt": "2026-07-08T16:16:50.726Z"
+  "updatedAt": "2026-07-08T16:18:35.874Z"
 }
