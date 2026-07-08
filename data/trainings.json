@@ -1,6 +1,55 @@
 {
   "trainings": [
     {
+      "id": "training_1783527253452_44958a065dc6c",
+      "title": "Tiros",
+      "description": "Coger punto de bola",
+      "createdAt": "2026-07-08T16:14:13.453Z",
+      "updatedAt": "2026-07-08T16:16:24.418Z",
+      "phases": [
+        {
+          "id": "phase_1783527316653_b2dd180906d198",
+          "title": "30°",
+          "description": "Separa la bola objetiva y blanca 2 diamantes.\n10 tiros y separar 1 diamante",
+          "done": false,
+          "createdAt": "2026-07-08T16:15:16.653Z",
+          "completedAt": null
+        },
+        {
+          "id": "phase_1783527333457_71b7ca4042a3e8",
+          "title": "45°",
+          "description": "Separa la bola objetiva y blanca 2 diamantes.\n10 tiros y separar 1 diamante",
+          "done": false,
+          "createdAt": "2026-07-08T16:15:33.457Z",
+          "completedAt": null
+        },
+        {
+          "id": "phase_1783527345780_b53997536d556",
+          "title": "60°",
+          "description": "Separa la bola objetiva y blanca 2 diamantes.\n10 tiros y separar 1 diamante",
+          "done": false,
+          "createdAt": "2026-07-08T16:15:45.780Z",
+          "completedAt": null
+        },
+        {
+          "id": "phase_1783527358272_634c1abdc6e68",
+          "title": "75°",
+          "description": "Separa la bola objetiva y blanca 2 diamantes.\n10 tiros y separar 1 diamante",
+          "done": false,
+          "createdAt": "2026-07-08T16:15:58.272Z",
+          "completedAt": null
+        },
+        {
+          "id": "phase_1783527384418_8549c5ba3b9d78",
+          "title": "80-90°",
+          "description": "Separa la bola objetiva y blanca 2 diamantes.\n10 tiros y separar 1 diamante",
+          "done": false,
+          "createdAt": "2026-07-08T16:16:24.418Z",
+          "completedAt": null
+        }
+      ]
+    },
+    {
       "id": "training_1783335906687_c8026e985fce58",
       "title": "Banda",
       "description": "",
@@ -67,5 +116,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-07-06T11:07:43.796Z"
+  "updatedAt": "2026-07-08T16:16:43.594Z"
 }
