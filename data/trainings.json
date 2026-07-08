@@ -1,6 +1,31 @@
 {
   "trainings": [
     {
+      "id": "training_1783527550968_c402aaa26ed2a",
+      "title": "Tiros bola llena",
+      "description": "",
+      "createdAt": "2026-07-08T16:19:10.968Z",
+      "updatedAt": "2026-07-08T16:20:10.000Z",
+      "phases": [
+        {
+          "id": "phase_1783527577177_5c87e0e138bc58",
+          "title": "Ejercicio 4 bolas 4 esquinas",
+          "description": "",
+          "done": false,
+          "createdAt": "2026-07-08T16:19:37.177Z",
+          "completedAt": null
+        },
+        {
+          "id": "phase_1783527610000_fa7b730015ee28",
+          "title": "Bola llena",
+          "description": "Ir separando 1 diamante cada vez que aciertas",
+          "done": false,
+          "createdAt": "2026-07-08T16:20:10.000Z",
+          "completedAt": null
+        }
+      ]
+    },
+    {
       "id": "training_1783527253452_44958a065dc6c",
       "title": "Tiros",
       "description": "Coger punto de bola",
@@ -108,5 +133,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-07-08T16:18:35.874Z"
+  "updatedAt": "2026-07-08T16:20:52.888Z"
 }
