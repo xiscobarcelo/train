@@ -112,16 +112,8 @@
       "title": "Tiros 45°",
       "description": "10 x esquina",
       "createdAt": "2026-07-06T11:02:04.426Z",
-      "updatedAt": "2026-07-08T16:18:20.872Z",
+      "updatedAt": "2026-08-04T21:29:32.157Z",
       "phases": [
-        {
-          "id": "phase_1783335760259_bc4fc97785354",
-          "title": "5 dcha",
-          "description": "",
-          "done": false,
-          "createdAt": "2026-07-06T11:02:40.259Z",
-          "completedAt": null
-        },
         {
           "id": "phase_1783335768130_c46dc96c082d28",
           "title": "5 ixq",
@@ -129,9 +121,17 @@
           "done": false,
           "createdAt": "2026-07-06T11:02:48.130Z",
           "completedAt": null
+        },
+        {
+          "id": "phase_1783335760259_bc4fc97785354",
+          "title": "5 dcha",
+          "description": "",
+          "done": false,
+          "createdAt": "2026-07-06T11:02:40.259Z",
+          "completedAt": null
         }
       ]
     }
   ],
-  "updatedAt": "2026-07-08T16:20:54.636Z"
+  "updatedAt": "2026-08-04T21:31:26.466Z"
 }
